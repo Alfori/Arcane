@@ -1,0 +1,303 @@
+11:18:01 PM: Executing ':Game.main()'...
+
+> Task :compileJava
+> Task :processResources
+> Task :classes
+
+> Task :Game.main()
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.4/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 1s
+3 actionable tasks: 3 executed
+Mar 14, 2024 11:18:03 PM org.example.Game play
+INFO: ARCANE MAZE: turn 0
+Mar 14, 2024 11:18:03 PM org.example.Room lambda$fight$2
+INFO: Adventurer 0 hits Creature 1 for 1 damage.
+Mar 14, 2024 11:18:03 PM org.example.Game printMazeState
+INFO: ARCANE MAZE: turn 0
+	Room 0:
+		Adventurers: None
+		Creatures: None
+		Food: Cookie Salad
+
+	Room 1:
+		Adventurers: None
+		Creatures: Creature 3(health: 8)
+		Food: Cake
+
+	Room 2:
+		Adventurers: None
+		Creatures: None
+		Food: Cookie
+
+	Room 3:
+		Adventurers: Adventurer 1(health: 5)
+		Creatures: None
+		Food: None
+
+	Room 4:
+		Adventurers: None
+		Creatures: None
+		Food: None
+
+	Room 5:
+		Adventurers: None
+		Creatures: Creature 2(health: 8) Creature 4(health: 8)
+		Food: Pasta
+
+	Room 6:
+		Adventurers: None
+		Creatures: None
+		Food: Fries Pasta
+
+	Room 7:
+		Adventurers: Adventurer 0(health: 5)
+		Creatures: Creature 1(health: 7)
+		Food: Banana Apple
+
+	Room 8:
+		Adventurers: None
+		Creatures: Creature 0(health: 8)
+		Food: Cookie
+
+
+Mar 14, 2024 11:18:03 PM org.example.Game play
+INFO: ARCANE MAZE: turn 1
+Mar 14, 2024 11:18:03 PM org.example.Room lambda$fight$2
+INFO: Adventurer 0 hits Creature 1 for 5 damage.
+Mar 14, 2024 11:18:03 PM org.example.Game printMazeState
+INFO: ARCANE MAZE: turn 1
+	Room 0:
+		Adventurers: None
+		Creatures: None
+		Food: Cookie Salad
+
+	Room 1:
+		Adventurers: None
+		Creatures: Creature 3(health: 8)
+		Food: Cake
+
+	Room 2:
+		Adventurers: None
+		Creatures: None
+		Food: Cookie
+
+	Room 3:
+		Adventurers: Adventurer 1(health: 5) Adventurer 1(health: 5)
+		Creatures: None
+		Food: None
+
+	Room 4:
+		Adventurers: None
+		Creatures: None
+		Food: None
+
+	Room 5:
+		Adventurers: None
+		Creatures: Creature 2(health: 8) Creature 4(health: 8)
+		Food: Pasta
+
+	Room 6:
+		Adventurers: None
+		Creatures: None
+		Food: Fries Pasta
+
+	Room 7:
+		Adventurers: Adventurer 0(health: 5) Adventurer 0(health: 5)
+		Creatures: Creature 1(health: 2)
+		Food: Banana Apple
+
+	Room 8:
+		Adventurers: None
+		Creatures: Creature 0(health: 8)
+		Food: Cookie
+
+
+Mar 14, 2024 11:18:03 PM org.example.Game play
+INFO: ARCANE MAZE: turn 2
+Mar 14, 2024 11:18:03 PM org.example.Room lambda$fight$2
+INFO: Creature 2 hits Adventurer 1 for 1 damage.
+Mar 14, 2024 11:18:03 PM org.example.Room lambda$fight$2
+INFO: Creature 1 hits Adventurer 0 for 3 damage.
+Mar 14, 2024 11:18:03 PM org.example.Adventurer logDeath
+SEVERE: Adventurer Adventurer 0 has died.
+Mar 14, 2024 11:18:03 PM org.example.Room lambda$fight$2
+INFO: Creature 1 hits Adventurer 0 for 2 damage.
+Mar 14, 2024 11:18:03 PM org.example.Game printMazeState
+INFO: ARCANE MAZE: turn 2
+	Room 0:
+		Adventurers: None
+		Creatures: None
+		Food: Cookie Salad
+
+	Room 1:
+		Adventurers: None
+		Creatures: Creature 3(health: 8)
+		Food: Cake
+
+	Room 2:
+		Adventurers: None
+		Creatures: None
+		Food: Cookie
+
+	Room 3:
+		Adventurers: Adventurer 1(health: 4) Adventurer 1(health: 4)
+		Creatures: None
+		Food: None
+
+	Room 4:
+		Adventurers: None
+		Creatures: None
+		Food: None
+
+	Room 5:
+		Adventurers: Adventurer 1(health: 4)
+		Creatures: Creature 2(health: 8) Creature 4(health: 8)
+		Food: Pasta
+
+	Room 6:
+		Adventurers: None
+		Creatures: None
+		Food: Fries Pasta
+
+	Room 7:
+		Adventurers: None
+		Creatures: Creature 1(health: 2)
+		Food: Banana Apple
+
+	Room 8:
+		Adventurers: None
+		Creatures: Creature 0(health: 8)
+		Food: Cookie
+
+
+Mar 14, 2024 11:18:03 PM org.example.Game play
+INFO: ARCANE MAZE: turn 3
+Mar 14, 2024 11:18:03 PM org.example.Room lambda$fight$2
+INFO: Adventurer 1 hits Creature 2 for 1 damage.
+Mar 14, 2024 11:18:03 PM org.example.Room lambda$fight$2
+INFO: Adventurer 1 hits Creature 4 for 1 damage.
+Mar 14, 2024 11:18:03 PM org.example.Room lambda$fight$2
+INFO: Creature 4 hits Adventurer 1 for 1 damage.
+Mar 14, 2024 11:18:03 PM org.example.Game printMazeState
+INFO: ARCANE MAZE: turn 3
+	Room 0:
+		Adventurers: None
+		Creatures: None
+		Food: Cookie Salad
+
+	Room 1:
+		Adventurers: None
+		Creatures: Creature 3(health: 8)
+		Food: Cake
+
+	Room 2:
+		Adventurers: None
+		Creatures: None
+		Food: Cookie
+
+	Room 3:
+		Adventurers: Adventurer 1(health: 3) Adventurer 1(health: 3)
+		Creatures: None
+		Food: None
+
+	Room 4:
+		Adventurers: None
+		Creatures: None
+		Food: None
+
+	Room 5:
+		Adventurers: Adventurer 1(health: 3) Adventurer 1(health: 3)
+		Creatures: Creature 2(health: 7) Creature 4(health: 7)
+		Food: Pasta
+
+	Room 6:
+		Adventurers: None
+		Creatures: None
+		Food: Fries Pasta
+
+	Room 7:
+		Adventurers: None
+		Creatures: Creature 1(health: 2)
+		Food: Banana Apple
+
+	Room 8:
+		Adventurers: None
+		Creatures: Creature 0(health: 8)
+		Food: Cookie
+
+
+Mar 14, 2024 11:18:03 PM org.example.Game play
+INFO: ARCANE MAZE: turn 4
+Mar 14, 2024 11:18:03 PM org.example.Room lambda$fight$2
+INFO: Creature 2 hits Adventurer 1 for 1 damage.
+Mar 14, 2024 11:18:03 PM org.example.Room lambda$fight$2
+INFO: Adventurer 1 hits Creature 4 for 3 damage.
+Mar 14, 2024 11:18:03 PM org.example.Room lambda$fight$2
+INFO: Adventurer 1 hits Creature 2 for 2 damage.
+Mar 14, 2024 11:18:03 PM org.example.Adventurer logDeath
+SEVERE: Adventurer Adventurer 1 has died.
+Mar 14, 2024 11:18:03 PM org.example.Room lambda$fight$2
+INFO: Creature 2 hits Adventurer 1 for 3 damage.
+Mar 14, 2024 11:18:03 PM org.example.Adventurer logDeath
+SEVERE: Adventurer Adventurer 1 has died.
+Mar 14, 2024 11:18:03 PM org.example.Room lambda$fight$2
+INFO: Creature 4 hits Adventurer 1 for 3 damage.
+Mar 14, 2024 11:18:03 PM org.example.Game printMazeState
+INFO: ARCANE MAZE: turn 4
+	Room 0:
+		Adventurers: None
+		Creatures: None
+		Food: Cookie Salad
+
+	Room 1:
+		Adventurers: None
+		Creatures: Creature 3(health: 8)
+		Food: Cake
+
+	Room 2:
+		Adventurers: None
+		Creatures: None
+		Food: Cookie
+
+	Room 3:
+		Adventurers: None
+		Creatures: None
+		Food: None
+
+	Room 4:
+		Adventurers: Adventurer 1(health: 0)
+		Creatures: None
+		Food: None
+
+	Room 5:
+		Adventurers: None
+		Creatures: Creature 2(health: 5) Creature 4(health: 4)
+		Food: Pasta
+
+	Room 6:
+		Adventurers: None
+		Creatures: None
+		Food: Fries Pasta
+
+	Room 7:
+		Adventurers: None
+		Creatures: Creature 1(health: 2)
+		Food: Banana Apple
+
+	Room 8:
+		Adventurers: None
+		Creatures: Creature 0(health: 8)
+		Food: Cookie
+
+
+Mar 14, 2024 11:18:03 PM org.example.Game announceWinner
+INFO: The creatures have won the game!
+Mar 14, 2024 11:18:03 PM org.example.Game main
+INFO: Game Over: true
+11:18:03 PM: Execution finished ':Game.main()'.
